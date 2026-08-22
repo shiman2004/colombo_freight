@@ -45,13 +45,7 @@ export default function ContactPage({ selectedService }: ContactPageProps) {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_20%,rgba(74,141,255,.24),transparent_40%)]" />
         <div className="relative mx-auto max-w-content px-5 lg:px-8">
           <Reveal>
-            <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-950/40 px-3.5 py-1.5 backdrop-blur-md">
-              <MessageSquare size={14} className="text-cyan-300" />
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-200">
-                Get In Touch • Colombo Office
-              </span>
-            </div>
-            <h1 className="mt-5 max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white">
+            <h1 className="max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white">
               Contact <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">Colombo Freight</span>.
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-white/70 leading-relaxed">

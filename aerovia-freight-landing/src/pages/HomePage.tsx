@@ -99,14 +99,7 @@ export default function HomePage({ onNavigate, onSelectServiceForQuote }: HomePa
 
         <div className="relative mx-auto max-w-content px-5 pb-20 pt-16 lg:px-8 lg:pt-24 z-10 w-full">
           <Reveal>
-            <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-cyan-950/40 px-3.5 py-1.5 backdrop-blur-md">
-              <span className="h-2 w-2 rounded-full bg-cyan-400 animate-ping" />
-              <span className="text-xs font-bold uppercase tracking-wider text-cyan-200">
-                Strategic Indian Ocean Hub • Colombo 02, Sri Lanka
-              </span>
-            </div>
-
-            <h1 className="mt-5 max-w-3xl text-5xl font-extrabold leading-[1.02] tracking-[-.04em] text-white sm:text-6xl lg:text-[76px]">
+            <h1 className="max-w-3xl text-5xl font-extrabold leading-[1.02] tracking-[-.04em] text-white sm:text-6xl lg:text-[76px]">
               Colombo Freight <br />
               <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-teal-300 bg-clip-text text-transparent">
                 moves cargo with care.
