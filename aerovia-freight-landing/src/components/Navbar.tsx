@@ -14,7 +14,7 @@ export default function Navbar(){
   return <header className="fixed inset-x-0 top-3 z-50 px-3">
     <GlassPanel variant="strong" className={`nav-glass mx-auto flex max-w-content items-center justify-between px-5 transition-all lg:px-8 ${scrolled?'h-16 nav-glass-scrolled':'h-20'}`}>
       <a href="#" className="flex items-center">
-        <img src="/logo-white.svg" alt="Colombo Freight" className="h-10 w-auto max-w-[200px] object-contain sm:h-12" />
+        <img src="/logos/logo-white.svg" alt="Colombo Freight" className="h-10 w-auto max-w-[200px] object-contain sm:h-12" />
       </a>
       <nav className="hidden xl:flex items-center gap-7 text-sm text-white/75">
         {links.map(x=><a key={x} href={`#${x.toLowerCase().replace(/ /g,'-')}`} className="hover:text-white transition">{x}</a>)}

@@ -19,7 +19,7 @@ export const services: ServiceItem[] = [
     titleSecondary: 'Transportation',
     fullTitle: 'Land Transportation & Island-wide Haulage',
     description: "Colombo Freight provides reliable island-wide container haulage, bonded trucking, and heavy freight transport across Sri Lanka with real-time GPS fleet tracking.",
-    image: '/services/land.jpg',
+    image: '/services/land.png',
     mode: 'Road',
     badge: 'Island-wide Fleet',
     features: ['GPS-tracked fleet', 'Bonded trucking', 'Heavy lift haulage']
@@ -41,7 +41,7 @@ export const services: ServiceItem[] = [
     titleSecondary: 'Freight',
     fullTitle: 'Ocean Freight (FCL & LCL)',
     description: "Colombo Freight's ocean freight solutions handle FCL, LCL, and project cargo globally. We connect Colombo Port to all major international trade lanes with competitive vessel rates.",
-    image: '/services/ocean.jpg',
+    image: '/services/ocean.png',
     mode: 'Ocean',
     badge: 'Global Ports',
     features: ['FCL & LCL services', 'Direct port calls', 'Breakbulk & RoRo']
@@ -74,7 +74,7 @@ export const services: ServiceItem[] = [
     titleSecondary: 'Transshipment',
     fullTitle: 'Transshipment & Entrepôt Services',
     description: 'Seamless transshipment handling through Port of Colombo with rapid vessel-to-vessel transfers, entrepôt trade assistance, and cargo repacking services.',
-    image: '/services/transshipment.jpg',
+    image: '/services/transshipment.png',
     mode: 'Ocean',
     badge: 'Hub Advantage',
     features: ['Rapid vessel transfer', 'Entrepôt trade', 'Documentation handling']
